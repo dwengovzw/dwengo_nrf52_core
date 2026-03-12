@@ -3,10 +3,10 @@
     {
       "name": "dwengo",
       "maintainer": "Dwengo",
-      "websiteURL": "https://github.com/YOUR_ORG/YOUR_REPO",
+      "websiteURL": "https://github.com/dwengovzw/dwengo_nrf52_core",
       "email": "opensource@dwengo.org",
       "help": {
-        "online": "https://github.com/YOUR_ORG/YOUR_REPO/issues"
+        "online": "https://github.com/dwengovzw/dwengo_nrf52_core/issues"
       },
       "platforms": [
         {
@@ -14,7 +14,7 @@
           "architecture": "nrf52",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/YOUR_ORG/YOUR_REPO/releases/download/1.0.0/dwengo-nrf52-1.0.0.tar.bz2",
+          "url": "https://github.com/dwengovzw/dwengo_nrf52_core/releases/download/1.0.0/dwengo-nrf52-1.0.0.tar.bz2",
           "archiveFileName": "dwengo-nrf52-1.0.0.tar.bz2",
           "checksum": "SHA-256:f9302aeb4d8589b55626c55a9b80aea6bec725d05540cd88128d15bf89d27788",
           "size": "16724744",
