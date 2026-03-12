@@ -14,6 +14,10 @@ This repository is a complete Arduino Boards Manager package for Dwengo nRF52 bo
 
 ## User install in Arduino IDE
 
+```text
+https://dwengovzw.github.io/dwengo_nrf52_core/package_dwengo_index.json
+```
+
 Add the URL above in:
 
 `File -> Preferences -> Additional Boards Manager URLs`
@@ -43,5 +47,5 @@ Then open Boards Manager and install:
 6. Share this Boards Manager URL:
 
 ```text
-https://<org>.github.io/<repo>/package_dwengo_index.json
+https://dwengovzw.github.io/dwengo_nrf52_core/package_dwengo_index.json
 ```
