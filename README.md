@@ -11,6 +11,7 @@ This repository is a complete Arduino Boards Manager package for Dwengo nRF52 bo
 - `scripts/make_release_archive.ps1`: Windows/PowerShell version of the above (`.\scripts\make_release_archive.ps1 1.0.1`)
 - `scripts/update_index_from_release.sh`: updates index version/url/checksum/size
 - `scripts/sync_dwengo_libraries.sh`: refreshes the bundled Dwengo libraries from `Blockly-for-Dwenguino`
+- `scripts/sync_dwengo_libraries.ps1`: Windows/PowerShell version of the above (`.\scripts\sync_dwengo_libraries.ps1 1.0.1`)
 
 ## Bundled Dwengo libraries
 
@@ -18,7 +19,7 @@ This repository is a complete Arduino Boards Manager package for Dwengo nRF52 bo
 Everything in that folder is installed together with the core by the Boards Manager, so users don't need to install these libraries separately.
 They are available (including their examples) whenever a Dwengo nRF52 board is selected.
 
-To update them before a release, run `./scripts/sync_dwengo_libraries.sh`, then rebuild the release archive and update the index.
+To update them before a release, run `./scripts/sync_dwengo_libraries.sh` (or `.\scripts\sync_dwengo_libraries.ps1` on Windows), then rebuild the release archive and update the index.
 
 
 
