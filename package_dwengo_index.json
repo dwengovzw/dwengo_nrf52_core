@@ -12,6 +12,43 @@
         {
           "name": "Dwengo nRF52 Boards",
           "architecture": "nrf52",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/dwengovzw/dwengo_nrf52_core/releases/download/1.0.1/dwengo-nrf52-1.0.1.tar.bz2",
+          "archiveFileName": "dwengo-nrf52-1.0.1.tar.bz2",
+          "checksum": "SHA-256:8d807d04f424d13879717ef8e77681fb666c9f48d97b80f0006c9f4e8c176cd4",
+          "size": "16726492",
+          "boards": [
+            {
+              "name": "Halberd nRF52840 (DWENGO)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "dwengo",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "dwengo",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "dwengo",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
+        },
+        {
+          "name": "Dwengo nRF52 Boards",
+          "architecture": "nrf52",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/dwengovzw/dwengo_nrf52_core/releases/download/1.0.0/dwengo-nrf52-1.0.0.tar.bz2",

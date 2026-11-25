@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CORE_VERSION="${1:-1.0.0}"
+CORE_VERSION="${1:-1.0.1}"
 ARCHIVE_BASE="dwengo-nrf52-${CORE_VERSION}"
 ARCHIVE_PATH="${ROOT_DIR}/releases/${ARCHIVE_BASE}.tar.bz2"
 
