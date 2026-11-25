@@ -9,6 +9,15 @@ This repository is a complete Arduino Boards Manager package for Dwengo nRF52 bo
 - `package_dwengo_index.json`: Boards Manager index file to publish via GitHub Pages
 - `scripts/make_release_archive.sh`: builds the release tarball
 - `scripts/update_index_from_release.sh`: updates index version/url/checksum/size
+- `scripts/sync_dwengo_libraries.sh`: refreshes the bundled Dwengo libraries from `Blockly-for-Dwenguino`
+
+## Bundled Dwengo libraries
+
+`DwengoCompatibilityLayer`, `HalberdGripper` and `HalberdGripperSensor` live in `nrf52/1.0.0/libraries/`.
+Everything in that folder is installed together with the core by the Boards Manager, so users don't need to install these libraries separately.
+They are available (including their examples) whenever a Dwengo nRF52 board is selected.
+
+To update them before a release, run `./scripts/sync_dwengo_libraries.sh`, then rebuild the release archive and update the index.
 
 
 
