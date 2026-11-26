@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/dwengovzw/dwengo_nrf52_core/releases/download/1.0.1/dwengo-nrf52-1.0.1.tar.bz2",
           "archiveFileName": "dwengo-nrf52-1.0.1.tar.bz2",
-          "checksum": "SHA-256:d880731af288d3d0cda59da3167a65ab0e4ac5b38586c21870dc254fdfa661a2",
-          "size": "16727273",
+          "checksum": "SHA-256:fd31eb3a24ab138a4f26ebb4662cb3dcca46484fbbf1254615cf1b3512cb4176",
+          "size": "16726283",
           "boards": [
             {
               "name": "Halberd nRF52840 (DWENGO)"
